@@ -41,12 +41,13 @@ class ThermoworksDataMgr:
 
         # these were mined from the android APK... hopefully they don't mind too much
         config = {
-            "apiKey": "AIzaSyCfCUKlG5-VPsqta-9M92XBSFLHYsbSqLk",
+            "apiKey": "AIzaSyCf079iccUFc1k7VHdGXng22zXDy8Y3KEY",
             "authDomain": "smoke-cloud.firebaseapp.com",
             "databaseURL": "https://smoke-cloud.firebaseio.com",
             "storageBucket": "smoke-cloud.appspot.com",
             "projectId": "smoke-cloud",
-            "messagingSenderId": "74663406178"
+            "messagingSenderId": "74663406178",
+            "referer": "https://cloud.thermoworks.com/"
         }
 
         # init firebase connection
